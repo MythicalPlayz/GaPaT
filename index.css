@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-size: 32px;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    /* background-color: aqua; */
+    border-radius: 5px;
+    margin: 5%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: 5px solid;
+    border-top: 0px;
+    border-color: rgb(13, 110, 200);
+}
+
+.controller-select {
+    display: flex;
+    height: 15%;
+    /*background-color: blue;*/
+    width: 100%;
+}
+
+.option {
+    width: 25%;
+    background-color: rgb(5, 52, 96);;
+    margin: 2px;
+    margin-bottom: 0px;
+    border: 5px solid;
+    border-color: rgb(13, 110, 200);;
+    border-bottom: 0px;
+    padding: 5px;
+    color: white;
+}
+
+.selected {
+    background-color: rgb(54, 152, 244);
+}
+
+.option .text {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.option .id {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: flex-start;
+    padding: 2.5%;
+}
+
+.main-container .info-class {
+    width: 100%;
+    height: 10%;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-container .input-class {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.main-container .image-class {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.input-class .buttons-group {
+    width: 100%;
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));;
+    gap: 10px;
+    flex-wrap: wrap;
+    border: 5px solid;
+    border-color: rgb(13, 110, 200);;
+    align-content: flex-start;
+    padding: 10px;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+.buttons-group .button {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.input-class .axes-group {
+    width: 100%;
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));;
+    gap: 10px;
+    flex-wrap: wrap;
+    border: 5px solid;
+    border-color: rgb(13, 110, 200);;
+    align-content: flex-start;
+    padding: 10px;
+}
+
+.axes-group .axis {
+
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none  !important;
+}
+
+.insert-controller {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+}
+

@@ -1,0 +1,27 @@
+{
+    "Buttons": {
+        "0": "A",
+        "1": "B",
+        "2": "X",
+        "3": "Y",
+        "4": "LB",
+        "5": "RB",
+        "6": "LT",
+        "7": "RT",
+        "8": "Back",
+        "9": "Start",
+        "10": "Left Stick",
+        "11": "Right Stick",
+        "12": "DP Up",
+        "13": "DP Down",
+        "14": "DP Left",
+        "15": "DP Right",
+        "16": "B16"
+    },
+    "Axes": {
+        "0": "Left X-Axis",
+        "1": "Left Y-Axis",
+        "2": "Right X-Axis",
+        "3": "Right Y-Axis"
+    }
+}

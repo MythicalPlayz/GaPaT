@@ -1,0 +1,28 @@
+{
+    "Buttons": {
+        "0": "Cross",
+        "1": "Circle",
+        "2": "Square",
+        "3": "Triangle",
+        "4": "L1",
+        "5": "R1",
+        "6": "L2",
+        "7": "R2",
+        "8": "Start",
+        "9": "Select",
+        "10": "L3",
+        "11": "R3",
+        "12": "DP Up",
+        "13": "DP Down",
+        "14": "DP Left",
+        "15": "DP Right",
+        "16": "B16",
+        "17": "B17"
+    },
+    "Axes": {
+        "0": "Left X-Axis",
+        "1": "Left Y-Axis",
+        "2": "Right X-Axis",
+        "3": "Right Y-Axis"
+    }
+}
